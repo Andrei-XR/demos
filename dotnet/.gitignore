@@ -1,0 +1,34 @@
+# Ignorar arquivos e pastas do Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Ignorar arquivos de build e de compilação
+bin/
+obj/
+
+# Ignorar arquivos temporários do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de dependências de pacotes NuGet
+.nuget/
+packages/
+
+# Ignorar arquivos de cache do ASP.NET Core
+wwwroot/
+*.db
+
+# Ignorar configurações locais
+appsettings.Development.json
+
+# Ignorar arquivos de IDEs específicas
+# .DS_Store - Para MacOS
+# Thumbs.db - Para Windows
+.DS_Store
+Thumbs.db
