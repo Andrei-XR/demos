@@ -1,0 +1,6 @@
+@SocialPostsAPI_HostAddress = http://localhost:5009
+
+GET {{SocialPostsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
